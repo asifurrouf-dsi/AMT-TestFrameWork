@@ -31,7 +31,7 @@ It provides the various property.  At present in which browser  test cases will 
 
 
 ## Application running 
--> git clone https://github.com/shahriar1628/seleniumTestingFramework.git 
+-> git clone https://github.com/shahriarkamal-dsi/AMT-TestFrameWork 
 
 -> mvn install (for build and  running the sample application test)  
 
