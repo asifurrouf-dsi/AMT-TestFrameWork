@@ -46,8 +46,11 @@ public class TestPlan {
 
     public TestModule getTestModule(String moduleName){
         Optional<TestModule>  testModule = testModules.stream().filter(tm -> tm.getModuleName().equals(moduleName)).findFirst() ;
-        return  testModule.isPresent() ? testModule.get() : null ;
-
+        /*convert list to stream >> */
+        return testModule.orElse(null);
+        /* return  testModule.isPresent() ? testModule.get() : null ;
+        If a value is present in {@code optional}, returns a
+        stream containing only that element, otherwise returns an empty stream.*/
     }
 
     public List<TestModule>  getAllTesModules(){
