@@ -43,6 +43,8 @@ It provides the various property.  At present in which browser  test cases will 
 ## Running the tests 
 -> mvn test -Dtest=UnitTesting test  ( for running unit test cases) 
 
+-> mvn test -Dtest=TestCaseCreate test  ( for running test cases) 
+
 -> mvn test -Dtest=AppTest  test  ( for running  sample test application.) 
 
 
